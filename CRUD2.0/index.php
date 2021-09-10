@@ -21,7 +21,7 @@
         <form action="save_producto.php" method="POST">
            
           <div class="form-group">
-            <input type="text" name="Nombre" class="form-control" placeholder="Nombre" autofocus>
+            <input type="text" name="Nombre" class="form-control" placeholder="Nombresssssss" autofocus>
           </div>
           <div class="form-group">
             <textarea name="Descripcion" rows="2" class="form-control" placeholder="Descripcion"></textarea>
