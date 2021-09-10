@@ -1,0 +1,6 @@
+colores principales
+celeste:#29B9d9
+celeste mas oscuro para cuando pones el cursos por encima:#4694A6
+blanco:#FFFFFF
+negro:#000000
+gris:#595959
