@@ -153,7 +153,6 @@ a{
 	background: #4694A6;
 }
 #prod{
-	background: skyblue;
 	margin-right: auto;
 	width: 59.5%;
 	height: 1000px;
@@ -164,12 +163,28 @@ a{
 	margin-left: 3px;
 	margin-right: 3px;
 	height: 3%;
-	background: yellow;
+	background: white;
 }
-#productos{
-	margin-left: 3px;
-	margin-right: 3px;
-	margin-top: 10px;
-	height: 97%;
-	background: green;
+.producto{
+	width: auto;
+	max-width: auto;
+	height: auto;
+	display:flex ;
+	flex: wrap;
+	justify-content: center;
+	overflow: hidden;
+}
+ .producto .card{
+	width: 275px;
+	height: auto;
+	border-radius: 5px;
+	box-shadow: 0 2px 2px #29B9d9;
+	overflow: hidden;
+	margin: 20px;
+	text-align: center;
+	transition: all 0.25s;
+	color: black;
+}.producto .card:hover{
+	transform: translate(-10px);
+	box-shadow: 0 6px 8px #4694A6;
 }

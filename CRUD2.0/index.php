@@ -21,7 +21,7 @@
         <form action="save_producto.php" method="POST">
            
           <div class="form-group">
-            <input type="text" name="Nombre" class="form-control" placeholder="Nombresssssss" autofocus>
+            <input type="text" name="Nombre" class="form-control" placeholder="Nombres" autofocus>
           </div>
           <div class="form-group">
             <textarea name="Descripcion" rows="2" class="form-control" placeholder="Descripcion"></textarea>
@@ -59,7 +59,7 @@
             <td><?php echo $row['Nombre']; ?></td>
             <td><?php echo $row['Descripcion']; ?></td>
             <td><?php echo $row['Stock']; ?></td>
-            <td><?php echo $row['Precio']; ?></td>
+            <td>$<?php echo $row['Precio']; ?></td>
             <td>
               <a href="edit.php?Codigo=<?php echo $row['codigo']?>" class="btn btn-secondary">
                 <i class="fas fa-marker"></i>

@@ -156,20 +156,7 @@ a{
 	background: skyblue;
 	margin-right: auto;
 	width: 59.5%;
-	height: 1000px;
+	height: 566px;
 	float: left;
 	margin-top: 25px;
-}
-#ofertas{
-	margin-left: 3px;
-	margin-right: 3px;
-	height: 35%;
-	background: yellow;
-}
-#destacados{
-	margin-left: 3px;
-	margin-right: 3px;
-	margin-top: 10px;
-	height: 65%;
-	background: green;
 }
