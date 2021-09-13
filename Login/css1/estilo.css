@@ -1,0 +1,87 @@
+
+}
+ form{
+ 	width: 17%;
+ 	border: 3px solid #29B9d9;
+ 	margin: 20px;
+	margin-right : auto ;
+	margin-left: auto;
+ 	padding: 50px;
+ 	text-align: center; /*Se alinea el texto en este caso al centro*/
+ 	background: #white;
+ 	border-radius: 7px;
+ 	color: #29B9d9;
+ }	
+ form .titulo{
+ 	font-size: 23px;
+ 	border-bottom:1px solid #29B9d9;
+ }
+ label{
+ 	font-size: 12px;	
+ }
+ input{
+ 	font-family: Arial ;
+ 	padding: 10px;
+ 	width: 80%;
+ 	background: white;
+ 	border: white;
+ 	border-bottom:1px solid #29B9d9;
+ 
+ }
+ input:focus{ 
+ 	outline: none;
+
+
+ }
+input[type="Submit"]{ /*modifico el submit especificamente*/
+	padding: 5px;
+	color: white;
+	border: none; /*porque el borde default de la compu era como sombreado*/
+	font-size: 15px;
+	border-radius: 6px; /* borde redondo */
+	background: #29B9d9;
+	margin-top: 30px;
+}
+input[type="Submit"]:hover{ /*HOVER: comportamiento cuando el cursor cuadno pasa por el boton*/
+	background: #4694A6; /*cambiar el color cuando pasa por el boton*/
+	cursor: pointer; /*cambia a manito cuando pasas por el boton*/
+
+}
+input[type="button"]{ /*modifico el button especificamente*/
+	padding: 5px;
+	color: white;
+	border: none; /*porque el borde default de la compu era como sombreado*/
+	font-size: 15px;
+	border-radius: 6px; /* borde redondo */
+	background: #29B9d9;
+	margin-top: 15px;
+}
+input[type="button"]:hover{ /*HOVER: comportamiento cuando el cursor cuadno pasa por el boton*/
+	background: #4694A6; /*cambiar el color cuando pasa por el boton*/
+	cursor: pointer; /*cambia a manito cuando pasas por el boton*/
+}
+input[type="radio"]{
+	text-align: left;
+	padding: 100px;
+}
+.ok{
+ 	text-align: center;
+ 	width: 23%;
+ 	padding: 12px;
+ 	background-color: #29B9d9;
+ 	color: #FFF;
+	margin-right : auto ;
+	margin-left: auto;
+	border-radius: 7px;
+}
+.bad {
+	text-align: center;
+ 	width: 23%;
+ 	padding: 12px;
+ 	background-color: red;
+ 	color: #FFF;
+	margin-right : auto ;
+	margin-left: auto;
+	border-radius: 7px;
+}
+

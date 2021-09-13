@@ -1,0 +1,113 @@
+<!DOCTYPE html public "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.org/TR/xhtml-transitional.dtd">
+<html xmlns="http://w3.org/1999/xhtml">
+
+<link rel="stylesheet" href="css1/estiloLogin.css">
+<link rel="stylesheet" href="css1/csscat.css">
+<link rel="stylesheet" href="css\all.min.css">
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Login</title>
+</head>
+<body>
+	<div id="general">
+	<div id="main-header">
+	<header id="main-header">
+		<a  href="http://localhost/practicos/proyecto/home/home.php"><img class="img" src="logoHeader.png" width="120" height="100" /></a>
+		<nav>
+
+			<ul>
+				<li id="buscar"><i class="fas fa-search"><input type="shearch" name="buscador" placeholder="Buscar productos..."><a  href="#"></i></li></a>
+				<li><a href="#"><i class="fas fa-map-marker-alt"></i></a></li>
+				<li><a href="carrito/carrito.html"><i class="fas fa-shopping-cart"></i></a></li>
+				<li><a href="pantlogin/inicioSesion.html"><i class="fas fa-sign-in-alt"></i></a></li>
+			</ul>
+		</nav><!-- / nav -->
+
+	</div>
+	<div class="contenedor-menu">
+	<ul class="menu">
+		<li class="titulo">CATEGORIAS</li>
+		<li><a href="#"><i class="icono izquierda	fas fa-keyboard"></i> Teclado <i class="icono derecha	fas fa-chevron-down"></i></a>
+			<ul>
+				<li><a href="http://localhost/practicos/proyecto/home/catsel/catselTecR.php">Razer</a></li>
+				<li><a href="catsel/catselTecL.html">Logitech</a></li>
+				<li><a href="catsel/catselTecH.html">HyperX</a></li>
+			</ul>
+		</li>
+		<li><a href="#"><i class="icono izquierda	fas fa-mouse"></i> Mouse  <i class="icono derecha	fas fa-chevron-down"></i></a>
+			<ul>
+
+				<li><a href="catsel/catselMouR.html">Razer</a></li>
+				<li><a href="catsel/catselMouL.html">Logitech</a></li>
+				<li><a href="catsel/catselMouH.html">HyperX</a></li>
+			</ul>
+		</li>
+		<li><a href="#"><i class="icono izquierda	fas fa-headphones-alt"></i> Auricular <i class="icono derecha	fas fa-chevron-down"></i></a>
+			<ul>
+				<li><a href="catsel/catselAuriR.html">Razer</a></li>
+				<li><a href="catsel/catselAuriL.html">Logitech</a></li>
+				<li><a href="catsel/catselAuriH.html">HyperX</a></li>
+			</ul>
+		</li>
+		<li><a href="#"><i class="icono izquierda	fas fa-tablet"></i> Mousepad <i class="icono derecha	fas fa-chevron-down"></i></a>
+			<ul>
+				<li><a href="catsel/catselMoupR.html">Razer</a></li>
+				<li><a href="catsel/catselMoupL.html">Logitech</a></li>
+				<li><a href="catsel/catselMoupH.html">HyperX</a></li>
+			</ul>
+		</li>
+		<li><a href="#"><i class="icono izquierda	fas fa-tv"></i> Pantalla <i class="icono derecha	fas fa-chevron-down"></i></a>
+			<ul>
+				<li><a href="catsel/catselMonA.html">Acer</a></li>
+				<li><a href="catsel/catselMonV.html">ViewSonic</a></li>
+				<li><a href="catsel/catselMonAsus.html">Asus</a></li>
+			</ul>
+		</li>
+		<li><a href="#"><i class="icono izquierda	fas fa-vr-cardboard"></i> Tarjetas de video <i class="icono derecha	fas fa-chevron-down"></i></a>
+			<ul>
+				<li><a href="catsel/catselGrafN.html">Nvidia</a></li>
+				<li><a href="catsel/catselGrafAMD.html">AMD</a></li>
+			</ul>
+		</li>
+		<li><a href="#"><i class="icono izquierda	fas fa-microchip"></i> Procesador <i class="icono derecha	fas fa-chevron-down"></i></a>
+			<ul>
+				<li><a href="catsel/catselProcI.html">Intel</a></li>
+				<li><a href="catsel/catselProcA.html">AMD</a></li>
+			</ul>
+		</li>
+		<li><a href="#"><i class="icono izquierda	fas fa-memory"></i> Memorias <i class="icono derecha	fas fa-chevron-down"></i></a>
+			<ul>
+				<li><a href="catsel/catselMemC.html">Corsair</a></li>
+				<li><a href="catsel/catselMemL.html">Logitech</a></li>
+				<li><a href="catsel/catselMemA.html">ADATA</a></li>
+			</ul>
+		</li>
+
+	</ul>
+
+</div>
+<div id="prod">
+	
+		<form action="comprueba_login.php" method="post">
+		<p>INICIAR SESION</p>
+			<table>
+					<tr><td class="izq"></td><td class="der"><i class="fas fa-user-alt"></i> <input type="text" name="login" placeholder="Email"></td></tr>
+					<tr><td class="izq"></td><td class="der"><i class="fas fa-key"></i><input type="password" name="contra" placeholder="Contraseña"></td></tr>
+					<tr><td colspan="2"><input type="submit" name="enviar" value="Iniciar sesion"></td>
+					<tr><td colspan="2"><a href="http://localhost/proyecto/login/index.php"><input type="button" name="registrarse" value="Registrarse"></a></td>
+				</tr>
+			</table>
+	</form>
+
+				 
+	 </div>
+</div>
+	
+	
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="mainHeader.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
