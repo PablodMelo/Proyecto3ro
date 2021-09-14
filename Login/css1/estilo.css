@@ -1,4 +1,10 @@
-
+body{
+	background: white;
+	font-family: Arial;
+    /*IMPORTANTE*/
+    justify-content: center;
+    align-items: center;
+ 
 }
  form{
  	width: 17%;

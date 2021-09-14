@@ -44,7 +44,7 @@
             <th>Nombre</th>
             <th>Descripcion</th>
             <th>Stock</th>
-            <th>Precios</th>
+            <th>Precio</th>
           </tr>
         </thead>
         <tbody>

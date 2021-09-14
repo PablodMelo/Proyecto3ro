@@ -30,7 +30,7 @@
 		<li><a href="#"><i class="icono izquierda	fas fa-keyboard"></i> Teclado <i class="icono derecha	fas fa-chevron-down"></i></a>
 			<ul>
 				<li><a href="http://localhost/practicos/proyecto/home/catsel/catselTecR.php">Razer</a></li>
-				<li><a href="catsel/catselTecL.html">Logitech</a></li>
+				<li><a href="catsel/catselTecL.html">Logitechhhhhhhhhhhhhhhhhhhhhhh</a></li>
 				<li><a href="catsel/catselTecH.html">HyperX</a></li>
 			</ul>
 		</li>
@@ -87,7 +87,6 @@
 
 </div>
 <div id="prod">
-	
 	<?php
 	include("db.php");
 			$query = "Select * from producto";
@@ -104,7 +103,6 @@
 				<?php 
 			}
 	 ?>
-	 </div>
 </div>
 
 

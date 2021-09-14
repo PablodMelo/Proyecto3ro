@@ -1,8 +1,6 @@
 $(document).ready(function(){
 	$('.menu li:has(ul)').click(function(e){
-		 $(".menu li ul li a").click(function (e) {
-    		window.location.href = $(this).attr("href");
-    		});
+		e.preventDefault();
 		if ($(this).hasClass('activado')){
 			$(this).removeClass('activado')
 			$(this).children('ul').slideUp();
@@ -11,9 +9,8 @@ $(document).ready(function(){
 				$('.menu li ul').slideUp();
 				$('.menu li').removeClass('activado');
 				$(this).addClass('activado')
-				$(this).children('ul').slideDown();
+				$(this).children('ul').slideDown();		 
  		}
-
 	});
 
 });

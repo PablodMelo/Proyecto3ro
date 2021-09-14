@@ -99,6 +99,7 @@
 				?>
 				
 				<div class="card" >
+					<td><img src="imagenes/huntsman mini.jpg"></td>
 					<td><?php echo $row['Nombre']; ?></td><br>
 					<td>$<?php echo $row['Precio']; ?></td>
 					

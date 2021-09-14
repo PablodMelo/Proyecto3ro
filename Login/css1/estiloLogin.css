@@ -24,7 +24,9 @@ form{
  	border-bottom:1px solid #29B9d9;
  }
 
-
+tbody{
+	margin-left: 50px;
+	padding: 50px;
 }
 
  input{
