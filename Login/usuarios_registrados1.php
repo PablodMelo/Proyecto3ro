@@ -20,7 +20,7 @@
 	echo "Hola: " . $_SESSION["usuario"] . "<br><br>";
 	?>
 
-	<p><a href="cierre.php">Cerrar Seccion</a></p>
+	<p><a href="cierre.php">Cerrar Sesion</a></p>
 	
 </body>
 </html>
