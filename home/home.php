@@ -11,17 +11,27 @@
 <body>
 	<div id="general">
 	<div id="main-header">
-	<header id="main-header">
-		<a  href="http://localhost/practicos/proyecto/home/home.php"><img class="img" src="logoHeader.png" width="120" height="100" /></a>
+	<!--<header id="main-header">-->
+		<a  href="http://localhost/proyecto/home/home.php"><img class="img" src="logoHeader.png" width="120" height="100" /></a>
 		<nav>
+	<div class="search-box">
+		<input class="search-txt" type="text" name="" placeholder="Buscar producto...">
+		<a class="search-btn" href="">
+			<i class="fas fa-search"></i>
+		</a>
+		<!--<div class="search-btn">
+			<i class="fas fa-search"></i>
+		</div>-->
+
+		
+	</div>
 
 			<ul>
-				<li id="buscar"><i class="fas fa-search"><input type="shearch" name="buscador" placeholder="Buscar productos..."><a  href="#"></i></li></a>
 				<li><a href="#"><i class="fas fa-map-marker-alt"></i></a></li>
-				<li><a href="carrito/carrito.html"><i class="fas fa-shopping-cart"></i></a></li>
-				<li><a href="pantlogin/inicioSesion.html"><i class="fas fa-sign-in-alt"></i></a></li>
+				<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+				<li><a href="http://localhost/proyecto/Login/login.php"><i class="fas fa-sign-in-alt"></i></a></li>
 			</ul>
-		</nav><!-- / nav -->
+		</nav>
 
 	</div>
 	<div class="contenedor-menu">
@@ -29,7 +39,7 @@
 		<li class="titulo">CATEGORIAS</li>
 		<li><a href="#"><i class="icono izquierda	fas fa-keyboard"></i> Teclado <i class="icono derecha	fas fa-chevron-down"></i></a>
 			<ul>
-				<li><a href="http://localhost/practicos/proyecto/home/catsel/catselTecR.php">Razer</a></li>
+				<li><a href="http://localhost/proyecto/home/catsel/catselTecR.php">Razer</a></li>
 				<li><a href="catsel/catselTecL.html">Logitech</a></li>
 				<li><a href="catsel/catselTecH.html">HyperX</a></li>
 			</ul>
@@ -63,7 +73,7 @@
 				<li><a href="catsel/catselMonAsus.html">Asus</a></li>
 			</ul>
 		</li>
-		<li><a href="#"><i class="icono izquierda	fas fa-vr-cardboard"></i> Tarjetas de video <i class="icono derecha	fas fa-chevron-down"></i></a>
+		<li><a href="#"><i class="icono izquierda noun_gpu_1132940"></i> Tarjetas de video <i class="icono derecha	fas fa-chevron-down"></i></a>
 			<ul>
 				<li><a href="catsel/catselGrafN.html">Nvidia</a></li>
 				<li><a href="catsel/catselGrafAMD.html">AMD</a></li>
@@ -87,7 +97,7 @@
 
 </div>
 <div id="prod">
-	<?php
+		<?php
 	include("db.php");
 			$query = "Select * from producto";
 			$resultado = $con->query($query);
@@ -103,6 +113,7 @@
 				<?php 
 			}
 	 ?>
+
 </div>
 
 

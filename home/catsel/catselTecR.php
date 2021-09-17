@@ -11,17 +11,27 @@
 <body>
 	<div id="general">
 	<div id="main-header">
-	<header id="main-header">
-		<a  href=""><img class="img" src="logoHeader.png" width="120" height="100" /></a>
+	<!--<header id="main-header">-->
+		<a  href="http://localhost/proyecto/home/home.php"><img class="img" src="logoHeader.png" width="120" height="100" /></a>
 		<nav>
+	<div class="search-box">
+		<input class="search-txt" type="text" name="" placeholder="Buscar producto...">
+		<a class="search-btn" href="">
+			<i class="fas fa-search"></i>
+		</a>
+		<!--<div class="search-btn">
+			<i class="fas fa-search"></i>
+		</div>-->
+
+		
+	</div>
 
 			<ul>
-				<li id="buscar"><i class="fas fa-search"><input type="shearch" name="buscador" placeholder="Buscar productos..."><a  href="#"></i></li></a>
 				<li><a href="#"><i class="fas fa-map-marker-alt"></i></a></li>
 				<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
-				<li><a href="#"><i class="fas fa-sign-in-alt"></i></a></li>
+				<li><a href="http://localhost/proyecto/Login/login.php"><i class="fas fa-sign-in-alt"></i></a></li>
 			</ul>
-		</nav><!-- / nav -->
+		</nav>
 
 	</div>
 	<div class="contenedor-menu">
@@ -29,62 +39,61 @@
 		<li class="titulo">CATEGORIAS</li>
 		<li><a href="#"><i class="icono izquierda	fas fa-keyboard"></i> Teclado <i class="icono derecha	fas fa-chevron-down"></i></a>
 			<ul>
-				<li><a href="catselTecR.html">Razer</a></li>
-				<li><a href="catselTecL.html">Logitech</a></li>
-				<li><a href="catselTecH.html">HyperX</a></li>
+				<li><a href="http://localhost/proyecto/home/catsel/catselTecR.php">Razer</a></li>
+				<li><a href="catsel/catselTecL.html">Logitech</a></li>
+				<li><a href="catsel/catselTecH.html">HyperX</a></li>
 			</ul>
 		</li>
 		<li><a href="#"><i class="icono izquierda	fas fa-mouse"></i> Mouse  <i class="icono derecha	fas fa-chevron-down"></i></a>
 			<ul>
 
-				<li><a href="catselMouR.html">Razer</a></li>
-				<li><a href="catselMouL.html">Logitech</a></li>
-				<li><a href="catselMouH.html">HyperX</a></li>
+				<li><a href="catsel/catselMouR.html">Razer</a></li>
+				<li><a href="catsel/catselMouL.html">Logitech</a></li>
+				<li><a href="catsel/catselMouH.html">HyperX</a></li>
 			</ul>
 		</li>
 		<li><a href="#"><i class="icono izquierda	fas fa-headphones-alt"></i> Auricular <i class="icono derecha	fas fa-chevron-down"></i></a>
 			<ul>
-				<li><a href="catselAuriR.html">Razer</a></li>
-				<li><a href="catselAuriL.html">Logitech</a></li>
-				<li><a href="catselAuriH.html">HyperX</a></li>
+				<li><a href="catsel/catselAuriR.html">Razer</a></li>
+				<li><a href="catsel/catselAuriL.html">Logitech</a></li>
+				<li><a href="catsel/catselAuriH.html">HyperX</a></li>
 			</ul>
 		</li>
 		<li><a href="#"><i class="icono izquierda	fas fa-tablet"></i> Mousepad <i class="icono derecha	fas fa-chevron-down"></i></a>
 			<ul>
-				<li><a href="catselMoupR.html">Razer</a></li>
-				<li><a href="catselMoupL.html">Logitech</a></li>
-				<li><a href="catselMoupH.html">HyperX</a></li>
+				<li><a href="catsel/catselMoupR.html">Razer</a></li>
+				<li><a href="catsel/catselMoupL.html">Logitech</a></li>
+				<li><a href="catsel/catselMoupH.html">HyperX</a></li>
 			</ul>
 		</li>
 		<li><a href="#"><i class="icono izquierda	fas fa-tv"></i> Pantalla <i class="icono derecha	fas fa-chevron-down"></i></a>
 			<ul>
-				<li><a href="catselMonA.html">Acer</a></li>
-				<li><a href="catselMonV.html">ViewSonic</a></li>
-				<li><a href="catselMonAsus.html">Asus</a></li>
+				<li><a href="catsel/catselMonA.html">Acer</a></li>
+				<li><a href="catsel/catselMonV.html">ViewSonic</a></li>
+				<li><a href="catsel/catselMonAsus.html">Asus</a></li>
 			</ul>
 		</li>
-		<li><a href="#"><i class="icono izquierda	fas fa-vr-cardboard"></i> Tarjetas de video <i class="icono derecha	fas fa-chevron-down"></i></a>
+		<li><a href="#"><i class="icono izquierda noun_gpu_1132940"></i> Tarjetas de video <i class="icono derecha	fas fa-chevron-down"></i></a>
 			<ul>
-				<li><a href="catselGrafN.html">Nvidia</a></li>
-				<li><a href="catselGrafAMD.html">AMD</a></li>
+				<li><a href="catsel/catselGrafN.html">Nvidia</a></li>
+				<li><a href="catsel/catselGrafAMD.html">AMD</a></li>
 			</ul>
 		</li>
 		<li><a href="#"><i class="icono izquierda	fas fa-microchip"></i> Procesador <i class="icono derecha	fas fa-chevron-down"></i></a>
 			<ul>
-				<li><a href="catselProcI.html">Intel</a></li>
-				<li><a href="catselProcA.html">AMD</a></li>
+				<li><a href="catsel/catselProcI.html">Intel</a></li>
+				<li><a href="catsel/catselProcA.html">AMD</a></li>
 			</ul>
 		</li>
 		<li><a href="#"><i class="icono izquierda	fas fa-memory"></i> Memorias <i class="icono derecha	fas fa-chevron-down"></i></a>
 			<ul>
-				<li><a href="catselMemC.html">Corsair</a></li>
-				<li><a href="catselMemL.html">Logitech</a></li>
-				<li><a href="catselMemA.html">ADATA</a></li>
+				<li><a href="catsel/catselMemC.html">Corsair</a></li>
+				<li><a href="catsel/catselMemL.html">Logitech</a></li>
+				<li><a href="catsel/catselMemA.html">ADATA</a></li>
 			</ul>
 		</li>
 
 	</ul>
-
 </div>
 <div id="prod">
 	<div id="filtro">
@@ -93,13 +102,13 @@
 	<div class="producto">
 	<?php
 	include("db.php");
-			$query = "SELECT * FROM `producto` WHERE Nombre LIKE 'Teclado Razer%'";
+			$query = "SELECT * FROM `producto` WHERE Nombre LIKE 'Teclado Razer%' Order by Precio";
 			$resultado = $con->query($query);
 			while ($row = $resultado->fetch_assoc()) {
 				?>
 				
 				<div class="card" >
-					<td><img src="imagenes/huntsman mini.jpg"></td>
+					<td><img src=""></td>
 					<td><?php echo $row['Nombre']; ?></td><br>
 					<td>$<?php echo $row['Precio']; ?></td>
 					

@@ -1,15 +1,7 @@
-body{
-	background: white;
-	font-family: Arial;
-    /*IMPORTANTE*/
-    justify-content: center;
-    align-items: center;
- 
-}
+
 form{
- 	width: 17%;
+ 	width: 230px;
  	border: 3px solid #29B9d9;
- 	margin: 100px;
 	margin-right : auto ;
 	margin-left: auto;
  	padding: 50px;
