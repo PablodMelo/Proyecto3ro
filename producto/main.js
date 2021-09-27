@@ -17,19 +17,4 @@ $(document).ready(function(){
 	});
 
 });
-const button =
-document.getElementById("btn");
-const list =
-document.getElementById("List");
-
-list.style.display = "none";
-
-button.addeventListener("click", (event) => {
-	if(list.style.display == "none") {
-		list.style.display = "block";
-	} else {
-		list.style.display = "none";
-	}
-
-})
 

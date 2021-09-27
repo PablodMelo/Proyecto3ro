@@ -73,7 +73,7 @@
 				<li><a href="catsel/catselMonAsus.html">Asus</a></li>
 			</ul>
 		</li>
-		<li><a href="#"><i class="icono izquierda noun_gpu_1132940"></i> Tarjetas de video <i class="icono derecha	fas fa-chevron-down"></i></a>
+		<li><a href="#"><i class="icono izquierda fas fa-vr-cardboard"></i> Tarjetas de video <i class="icono derecha	fas fa-chevron-down"></i></a>
 			<ul>
 				<li><a href="catsel/catselGrafN.html">Nvidia</a></li>
 				<li><a href="catsel/catselGrafAMD.html">AMD</a></li>
@@ -100,6 +100,7 @@
 		
 	</div>
 	<div class="producto">
+	
 	<?php
 	include("db.php");
 			$query = "SELECT * FROM `producto` WHERE Nombre LIKE 'Teclado Razer%' Order by Precio";
@@ -107,17 +108,19 @@
 			while ($row = $resultado->fetch_assoc()) {
 				?>
 				
-				<div class="card" >
+				<div class="card">
+				<a id="poducto" href="//localhost/proyecto/producto/producto.php">
 					<td><img src=""></td>
 					<td><?php echo $row['Nombre']; ?></td><br>
-					<td>$<?php echo $row['Precio']; ?></td>
-					
-				</div>
+					<td>$<?php echo $row['Precio']; ?></td>	<br>
+			</a>		
+				</div >
 
 				 
 				<?php 
 			}
 	 ?>
+
 </div>
 </div>
 

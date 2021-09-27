@@ -1,8 +1,8 @@
 
-a{
-	text-decoration: none;
-	color: #FFFFFF;
-}
+	a{
+		text-decoration: none;
+		color: black;
+	}
 
 #general{
 	width: 1300px;
@@ -91,14 +91,8 @@ a{
 	margin-left: 20px;
 	float: left;
 }
-#login{
-	display: block;
-	padding-left: 32px;
-	padding-right: 32px;
-	text-decoration: none;	
-	size: 30%;
-	font-size: 25px;
-}
+
+	
 		#main-header nav ul li {
 			display: inline-block;
 			line-height: 80px;
@@ -203,10 +197,35 @@ a{
 	background: #4694A6;
 }
 #prod{
-	margin-right: auto;
+	border: 1px solid #29B9d9;
 	width: 67%;
-	height: 566px;
+	height: 700px;
 	float: left;
 	margin-top: 50px;
 	margin-left: 110px;
+}
+#foto{
+	border: 1px solid #29B9d9;
+	width: 400px;
+	height: 400px;
+	float: left;
+	margin-top: 8%;
+	margin-left: 10%;
+}
+#info{
+	border: 1px solid #29B9d9;
+	width: 30%;
+	height: 300px;
+	float: right;
+	margin-top: 14%;
+	margin-right: 8%;
+}
+#descripcion{
+	border: 1px solid #29B9d9;
+	width: 82%;
+	height: 200px;
+	float: right;
+	margin-top: 2%;
+	margin-right: 8%;
+	margin-left: 10%;
 }

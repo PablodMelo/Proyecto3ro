@@ -72,7 +72,7 @@
 				<li><a href="catsel/catselMonAsus.html">Asus</a></li>
 			</ul>
 		</li>
-		<li><a href="#"><i class="icono izquierda noun_gpu_1132940"></i> Tarjetas de video <i class="icono derecha	fas fa-chevron-down"></i></a>
+		<li><a href="#"><i class="icono izquierda fas fa-vr-cardboard"></i> Tarjetas de video <i class="icono derecha	fas fa-chevron-down"></i></a>
 			<ul>
 				<li><a href="catsel/catselGrafN.html">Nvidia</a></li>
 				<li><a href="catsel/catselGrafAMD.html">AMD</a></li>

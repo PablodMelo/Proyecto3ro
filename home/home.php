@@ -15,7 +15,7 @@
 		<a  href="http://localhost/proyecto/home/home.php"><img class="img" src="logoHeader.png" width="120" height="100" /></a>
 		<nav>
 	<div class="search-box">
-		<input class="search-txt" type="text" name="" placeholder="Buscar producto.....">
+		<input class="search-txt" type="text" name="" placeholder="Buscar producto......">
 		<a class="search-btn" href="">
 			<i class="fas fa-search"></i>
 		</a>
@@ -29,7 +29,8 @@
 			<ul>
 				<li><a href="#"><i class="fas fa-map-marker-alt"></i></a></li>
 				<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
-				<li><a href="http://localhost/proyecto/Login/login.php"><i class="fas fa-sign-in-alt"></i></a></li>
+				<li><a href="http://localhost/proyecto/Login/Login.php"><i class="fas fa-sign-in-alt"></i></a></li>
+				
 			</ul>
 		</nav>
 
@@ -73,7 +74,7 @@
 				<li><a href="catsel/catselMonAsus.html">Asus</a></li>
 			</ul>
 		</li>
-		<li><a href="#"><i class="icono izquierda noun_gpu_1132940"></i> Tarjetas de video <i class="icono derecha	fas fa-chevron-down"></i></a>
+		<li><a href="#"><i class="icono izquierda fas fa-vr-cardboard"></i> Tarjetas de video <i class="icono derecha	fas fa-chevron-down"></i></a>
 			<ul>
 				<li><a href="catsel/catselGrafN.html">Nvidia</a></li>
 				<li><a href="catsel/catselGrafAMD.html">AMD</a></li>
@@ -119,7 +120,6 @@
 
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="mainHeader.js"></script>
 <script src="main.js"></script>
 </body>
 </html>

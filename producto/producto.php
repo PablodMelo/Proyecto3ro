@@ -2,10 +2,10 @@
 <html lang="es">
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0 ">
+	<title>home</title>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap">
-	<title>REGISTRARSE</title>
-	<link rel="stylesheet" href="css1\estilo.css">
+	<link rel="stylesheet" href="css1\cssmain.css">
 	<link rel="stylesheet" href="css\all.min.css">
 </head>
 <body>
@@ -15,7 +15,7 @@
 		<a  href="http://localhost/proyecto/home/home.php"><img class="img" src="logoHeader.png" width="120" height="100" /></a>
 		<nav>
 	<div class="search-box">
-		<input class="search-txt" type="text" name="" placeholder="Buscar producto...">
+		<input class="search-txt" type="text" name="" placeholder="Buscar producto......">
 		<a class="search-btn" href="">
 			<i class="fas fa-search"></i>
 		</a>
@@ -97,43 +97,22 @@
 
 </div>
 <div id="prod">
-	<form  method="post">
-		<p class="titulo">REGISTRARSE</p>
-<p>
-	
-	<label for="">
-		<i class="fas fa-address-card"></i><input type="number" placeholder="Cedula" name="cedula"><br>
-	</label>
+				
+		<div id="foto">
+            
+        </div>
+        <div id="info">
+        </div>
+        <div id="descripcion">
+        </div>  
+	 
 
-	<label for="">
-		<i class="fas fa-envelope"></i><input type="email" placeholder="Email" name="email"><br>
-	</label>
-
-	<label for="">
-		<i class="fas fa-key"></i><input type="password" id="contra" placeholder="Contraseña" name="contra">
-	</label>
-
-	</fieldset> 
-</p>
+</div>
 
 
 
-<p>
-	<label for="">
-		<input type="Submit" value="Registrarse" name="enviar">
-	</label>
-	<label for=""><a href="http://localhost/proyecto/Login/login.php"><input type="button" name="login" value="Iniciar Sesion"></a></td></label>
-</p>
-
-	</form>
-	<?php
-	include("registrar.php");
-	?>
-	</div>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="mainHeader.js"></script>
 <script src="main.js"></script>
-
-
 </body>
 </html>
