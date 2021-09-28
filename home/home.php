@@ -15,14 +15,29 @@
 		<a  href="http://localhost/proyecto/home/home.php"><img class="img" src="logoHeader.png" width="120" height="100" /></a>
 		<nav>
 	<div class="search-box">
-		<input class="search-txt" type="text" name="" placeholder="Buscar producto......">
-		<a class="search-btn" href="">
+		<form action="" method="get">
+		<input class="search-txt" type="text" name="buscar" placeholder="Buscar producto...">
+		<a class="search-btn">
 			<i class="fas fa-search"></i>
 		</a>
-		<!--<div class="search-btn">
+		</form>
+		<!-- <a class="search-btn" >
 			<i class="fas fa-search"></i>
-		</div>-->
+		</a> -->
+			<br> <br>
+		<?php
+		include("db.php");
 
+		if (isset($_GET['buscar'])) {
+			$busqueda = $_GET['buscar'];
+			$consulta = $con->query("SELECT nombre FROM `producto` where nombre like '%$busqueda%'");
+		
+			while ($row = $consulta -> fetch_array()) {
+				echo "<p><a target='_blank'>$row[nombre]</a></p>";
+			}
+		}
+
+        ?>
 		
 	</div>
 
@@ -118,7 +133,7 @@
 </div>
 
 
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="main.js"></script>
 </body>
